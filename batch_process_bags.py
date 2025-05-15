@@ -8,7 +8,7 @@ DATA_DIR = "data"
 RESULTS_DIR = os.path.join(DATA_DIR, "results")
 START_DISTANCE = 0.1
 ACTUATOR_SPEED_MPS = 0.057
-FPS = 10
+FPS = 30
 
 os.makedirs(RESULTS_DIR, exist_ok=True)
 

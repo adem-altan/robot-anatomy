@@ -1,8 +1,20 @@
-To record data, run:
+How to Use
+1. Make sure:
+    - Arduino is connected and using correct COM port (COM9, etc.)
+    - Your recordings/ folder exists
+2. Open a terminal and run:
+    `python start_record_on_serial.py`
 
+3. Press the button on the Arduino setup
+4. Camera will record for 57 seconds and save the .bag
 
 Make sure camera recordings, ***.bag files, are copied into dedicated folders under data.
-Results will be auto generated upon `batch_process`.
+Results will be auto generated upon `batch_process` run.
+
+To start listening for camera, run
+```
+python start_record_on_serial.py
+```
 
 To process the data, run:
 ```
