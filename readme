@@ -1,0 +1,15 @@
+To record data, run:
+
+
+Make sure camera recordings, ***.bag files, are copied into dedicated folders under data.
+Results will be auto generated upon `batch_process`.
+
+To process the data, run:
+```
+python batch_process_bags.py
+```
+
+To run the web app, run 
+```
+python -m streamlit run app.py
+```
